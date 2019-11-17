@@ -1,0 +1,86 @@
+.menu {width: 18%;
+height: 100%;
+float: left;
+display: inline-grid;
+position: fixed;
+background-color: #B7EAE5;
+z-index: 1;
+top: 0;
+left: 0;
+}
+.menu>div {display: inline-grid;
+margin: 5px;
+border: 4px solid #C18080;
+border-radius: 20px;
+background: radial-gradient(ellipse at center, #FFFFFF 0%, #FFFFFF 50%, #F1EBC4 100%);
+padding: 10px;
+}
+.derecha {float: right;
+width: 20%;
+margin-right: 100px;
+}
+.medio {display: inline-block;
+width: 50%;
+margin-left: 300px;
+}
+body {font-family: Tahoma, sans-serif;
+font-size: 16px;
+background: url(background.gif) no-repeat;
+background-color: #B7EAE5;
+background-position: center center;
+background-size: auto;
+background-attachment: fixed;
+}
+.articulo {border: 2px dotted #C18080;
+border-radius: 10px;
+background: radial-gradient(ellipse at center, #FFFFFF 0%, #FFFFFF 50%, #F1EBC4 100%);
+margin: 8px;
+margin-bottom: 120px;
+padding: 15px;}
+.derecha>div {margin: 10px;
+border: 4px solid #C18080;
+border-radius: 20px;
+background: radial-gradient(ellipse at center, #FFFFFF 0%, #FFFFFF 50%, #F1EBC4 100%);
+padding: 10px;
+margin-bottom: 100px;
+position: sticky;
+top: 0;
+z-index: inherit;
+}
+
+.footer {position: sticky;
+  right: 0;
+  bottom: 0;
+  width: 5%;
+  background-color: #C18080;
+  color: white;
+  text-align: center;
+  float: right;
+}
+.clearfix::after {overflow: auto;
+}
+#tooltip {position: relative;
+}
+#tooltip-text{visibility: hidden;
+width: 140px;
+background-color: #F1EBC4;
+color: #C18080;
+text-align: center;
+border: 3px solid #C18080;
+border-radius: 40px;
+padding: 5px;
+position: absolute;
+z-index: 1;
+margin-left: 5px;
+}
+#tooltip:hover #tooltip-text {visibility: visible;}
+.principal {font-family: Tahoma, sans-serif;
+font-size: 33px;
+letter-spacing: -2px;
+word-spacing: 3px;
+color: #000000;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;}
