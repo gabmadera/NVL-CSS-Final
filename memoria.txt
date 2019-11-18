@@ -1,0 +1,26 @@
+Hecho el layout de la web con su header, tres columnas y footer.
+La columna izquiera, haciendo funcion de links a los topicos y de menu de contacto,
+esta fijada en su posicion para que fuese siempre visible, incluso cuando se hace scroll largo en la segunda columna,
+la cual tiene el contenido.
+La tercera columna tiene lo que serian los articulos destacados, con posicion "sticky" hasta que pase el scroll para mantener la atencion.
+
+Hecho el layout y contenido html, paso a las reglas CSS:
+estilizados los titulos con shadow y varias posiciones para dar un toque de estilo a la web.
+Cada elemento del fichero esta identificado con su clase o id para que las reglas especificas tengan efecto,
+hago uso de varios metodos para colocar mis selectores como por ejemplo:
+
+.menu y otros para las clases especificas
+.menu>div para que los elementos elegidos dentro de la clase que menciono tengan sus propias reglas de diseño
+#home ya que le he dado ids a ciertos elementos
+
+He investigado un poco por mi cuenta y logre que apareciera una caja de texto al pasar el cursor por un punto determinado,
+a lo que ahora conozco como un hover en el css, pueden encontrarlo en el fichero html identificados con los Id "tooltip" y "tooltip-text"
+Hago que cambie de visibilidad la caja de texto al pasar el cursor.
+Creo un link fijo en la parte inferior derecha a inicio, en este caso dando un poco de estilo intentando que se viera mas como un boton especifico.
+
+Algo que espero haber hecho bien y no estoy muy convencido es eliminar el float luego de las columnas, ya que queria en un principio agregar algo mas abajo ademas del footer.
+Esto lo he hecho colocando el "after" luego del bloque que deseo y que lo siguiente se visualice en bloque y haciendo "clear" de los floats.
+
+En el footer coloco un pequeño parrafo a modo de "condiciones legales o copyrights" imitando webs reales agregando iconos que busqué por mi cuenta.
+
+Gracias

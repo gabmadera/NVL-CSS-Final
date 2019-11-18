@@ -1,5 +1,5 @@
 .menu {width: 18%;
-height: 100%;
+height: 90%;
 float: left;
 display: inline-grid;
 position: fixed;
@@ -9,7 +9,8 @@ top: 0;
 left: 0;
 }
 .menu>div {display: inline-grid;
-margin: 5px;
+margin: 15px;
+margin-top: 33%;
 border: 4px solid #C18080;
 border-radius: 20px;
 background: radial-gradient(ellipse at center, #FFFFFF 0%, #FFFFFF 50%, #F1EBC4 100%);
@@ -21,7 +22,15 @@ margin-right: 100px;
 }
 .medio {display: inline-block;
 width: 50%;
-margin-left: 300px;
+margin-left: 20%;
+}
+#home {text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd,
+1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4,
+4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4,
+6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4,
+-6px -28px 14px rgba(82,206,138,0);
+color: #C18080;
+font-size: 250%;
 }
 body {font-family: Tahoma, sans-serif;
 font-size: 16px;
@@ -30,6 +39,15 @@ background-color: #B7EAE5;
 background-position: center center;
 background-size: auto;
 background-attachment: fixed;
+}
+li {padding: 10px;
+font-size: 150%;
+font-weight: bold;
+}
+.columna:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 .articulo {border: 2px dotted #C18080;
 border-radius: 10px;
@@ -47,17 +65,14 @@ position: sticky;
 top: 0;
 z-index: inherit;
 }
-
-.footer {position: sticky;
+.boton {position: sticky;
   right: 0;
   bottom: 0;
   width: 5%;
   background-color: #C18080;
-  color: white;
   text-align: center;
   float: right;
-}
-.clearfix::after {overflow: auto;
+  border-radius: 15pc;
 }
 #tooltip {position: relative;
 }
@@ -83,4 +98,14 @@ font-weight: 700;
 text-decoration: none;
 font-style: normal;
 font-variant: normal;
-text-transform: uppercase;}
+text-transform: uppercase;
+}
+.footer {font-size: 50%; font-family: sans-serif; }
+.title {text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd,
+1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4,
+4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4,
+6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4,
+-6px -28px 14px rgba(82,206,138,0);
+color: #C18080; font-size: 200%;
+text-align: center;
+}
